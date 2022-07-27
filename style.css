@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Edu+SA+Beginner&display=swap');
+body, html{
+	padding: 0;
+	margin: 0;
+
+	background-color: #242424;
+}
+.header2{
+	height: 50px;
+	width: 100%;
+	background-color: yellow;
+	box-shadow: 0px 0px 20px black;
+
+}
+
+header{
+	z-index: 5000;
+	box-shadow: 0px 0px 20px black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #D61C4E;
+	display: flex;
+	margin: 0;
+	align-items: center;
+
+}
+.container{
+	z-index: 500;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 80%;
+}
+.container a{
+	z-index: 500;
+	font-family: 'Edu SA Beginner', cursive;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	text-shadow: 0px 0px 10px white;
+	transition: 0.3s;
+}
+.container a:hover{
+	z-index: 500;
+	color: black;
+	text-shadow: 0px 0px 10px #5800FF;
+}
+
+.vid{
+	z-index: 500;
+	width: 160px;
+	height: 90px;
+	background-color: #373737;
+	border-radius: 4px;
+	border: 1px solid grey;
+	transition: 0.2s;
+}
+.vid:hover{
+	background-color: #676767;
+	border: 1px solid white;
+}
+section{
+	z-index: 500;
+	align-items: center;
+	height: 120px;
+	width: 90%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.premium{
+	z-index: 500;
+	display: flex;
+	align-items: center;
+	height: 200px;
+	width: 80%;
+	margin: 0 auto;
+}
+.container2{
+	z-index: 500;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	width: 78%;
+	justify-content: space-between;
+}
+.vid_premium{
+	z-index: 500;
+	width: 343px;
+	height: 190px;
+	background-color: #373737;
+	border-radius: 4px;
+	border: 1px solid grey;
+	transition: 0.2s;
+}
+.buy{
+	z-index: 500;
+	align-items: center;
+	color: #898989;
+	display: flex;
+	justify-content: space-around;
+	width: 160px;
+	height: 190px;
+	background-color: #373737;
+	border-radius: 4px;
+	border: 1px solid grey;
+	transition: 0.2s;
+}
+.buy:hover{
+	background-color: #676767;
+	border: 1px solid white;
+	box-shadow: 0px 0px 30px 3px lightskyblue;
+	color: white;
+}
+.vid_premium:hover{
+	background-color: #676767;
+	border: 1px solid white;
+	box-shadow: 0px 0px 30px 2px gold;
+}
+.vid_premium2{
+	z-index: 500;
+	width: 343px;
+	height: 190px;
+	transition: 0.2s;
+	display: table-column;
+	align-items: center;
+}
+.logo{
+	font-family: 'Edu SA Beginner', cursive;
+	text-align: center;
+	color: #0096FF;
+	text-shadow: 0px 0px 40px lightskyblue;
+}
+.btn{
+	text-align: center;
+	padding: 5px 30px;
+	transition: 0.2s;
+	border-radius: 4px;
+	border: 1px solid lightskyblue;
+	text-decoration: none;
+	color: lightskyblue;
+}
+.btn:hover{
+	background-color: #454545;
+	color: #355764;
+	border: 1px solid #355764;
+}
+footer{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 50px;
+	align-items: center;
+	background-color: #121212;
+	position: fixed;
+	bottom: 0;
+	z-index: 1000;
+}
+.ad{
+	font-family: 'Edu NSW ACT Foundation', cursive;
+	background: linear-gradient(#565656, #355764);
+	color: white;
+	width: 400px;
+	height: 40px;
+}
+.advert{
+
+}
+.img{
+	opacity: 0.2;
+	position: fixed;
+	width: 230px;
+	height: 350px;
+	bottom: 45px;
+	right: 0;
+	z-index: 0;
+	transition: 0.3s;
+}
+
+.img2{
+	opacity: 0.2;
+	position: fixed;
+	width: 230px;
+	height: 350px;
+	bottom: 45px;
+	left: 0;
+	z-index: 0;
+	transition: 0.3s;
+}
+.img:hover, .img2:hover{
+	opacity: 1;
+}
+@media (max-width: 1500px){
+	.premium{
+		width: 85%;
+
+	}
+} 
+@media (max-width: 1400px){
+	.premium{
+		width: 90%;
+
+	}
+} 
+@media (max-width: 1300px){
+	.premium{
+		width: 95%;
+		
+	}
+} 
+@media (max-width: 1200px){
+	.premium{
+		width: 100%;
+		
+	}
+	.container{
+		width: 90%;
+	}
+} 
+@media (max-width: 1100px){
+	.premium{
+		width: 100%;
+		justify-content: space-between;
+		
+	}
+	.container2{
+		width: 90%;
+	}
+	.container{
+		width: 100%;
+	}
+} 
+@media (max-width: 1000px){
+	.premium{
+		width: 100%;
+		display: block;
+		
+	}
+	.container2{
+		width: 90%;
+
+	}
+	.container{
+		width: 100%;
+		display: !important;
+	}
+} 
+
+
+
